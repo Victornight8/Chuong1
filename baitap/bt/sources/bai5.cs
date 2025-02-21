@@ -6,15 +6,14 @@ class Program
     {
         int i_136, n_136;
         float S_136 = 0;
-
         do
         {
-            Console.Write("\nNhap n: ");
+            Console.Write("\nNhập n: ");
             n_136 = int.Parse(Console.ReadLine());
 
             if (n_136 < 1)
             {
-                Console.WriteLine("\nN phai lon hon hoac bang 1. Xin nhap lai!");
+                Console.WriteLine("\nN phải lớn hơn hoặc bằng 1. Xin nhập lại!");
             }
 
         } while (n_136 < 1);
@@ -24,6 +23,6 @@ class Program
             S_136 += 1.0f / ((2 * i_136) + 1);
         }
 
-        Console.WriteLine("\nTong la: " + S_136);
+        Console.WriteLine("\nTổng là: " + S_136);
     }
 }

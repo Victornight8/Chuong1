@@ -1,0 +1,15 @@
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\bin\Debug\net8.0\bt.exe
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\bin\Debug\net8.0\bt.deps.json
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\bin\Debug\net8.0\bt.runtimeconfig.json
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\bin\Debug\net8.0\bt.dll
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\bin\Debug\net8.0\bt.pdb
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.AssemblyInfoInputs.cache
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.AssemblyInfo.cs
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.csproj.CoreCompileInputs.cache
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.sourcelink.json
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.dll
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\refint\bt.dll
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.pdb
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\bt.genruntimeconfig.cache
+C:\Users\muctr\OneDrive\Chuong1\baitap\bt\bt\obj\Debug\net8.0\ref\bt.dll

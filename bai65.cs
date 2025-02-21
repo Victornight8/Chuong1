@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
 {
@@ -77,32 +77,33 @@ class Program
     static void Main()
     {
         double a_136, b_136, c_136, x1_136, x2_136;
-        Console.Write("Nhập a = ");
+        Console.Write("Nhap a = ");
         a_136 = double.Parse(Console.ReadLine());
-        Console.Write("Nhập b = ");
+        Console.Write("Nhap b = ");
         b_136 = double.Parse(Console.ReadLine());
-        Console.Write("Nhập c = ");
+        Console.Write("Nhap c = ");
         c_136 = double.Parse(Console.ReadLine());
 
         double delta_136 = b_136 * b_136 - 4 * a_136 * c_136;
         int soNghiem_136 = PhuongTrinhBac2_136(a_136, b_136, c_136, out x1_136, out x2_136);
 
-        Console.WriteLine($"Số nghiệm của phương trình là: {soNghiem_136}");
+        Console.WriteLine($"So nghiem cua phuong trinh la: {soNghiem_136}");
         if (a_136 == 0)
         {
             if (b_136 != 0)
-                Console.WriteLine($"Nghiệm của phương trình {b_136}x + {c_136} = 0 là: {x1_136}");
+                Console.WriteLine($"Nghiem cua phuong trinh {b_136}x + {c_136} = 0 la: {x1_136}");
             else
-                Console.WriteLine($"Phương trình {b_136}x + {c_136} = 0 {(c_136 == 0 ? "có vô số nghiệm" : "vô nghiệm")}");
+                Console.WriteLine($"Phuong trinh {b_136}x + {c_136} = 0 {(c_136 == 0 ? "co vo so nghiem" : "vo nghiem")}");
         }
         else
         {
             if (delta_136 < 0)
-                Console.WriteLine($"Phương trình {a_136}x^2 + {b_136}x + {c_136} = 0 vô nghiệm");
+                Console.WriteLine($"Phuong trinh {a_136}x^2 + {b_136}x + {c_136} = 0 vo nghiem");
             else if (delta_136 == 0)
-                Console.WriteLine($"Phương trình {a_136}x^2 + {b_136}x + {c_136} = 0 có nghiệm kép: x1 = x2 = {x1_136}");
+                Console.WriteLine($"Phuong trinh {a_136}x^2 + {b_136}x + {c_136} = 0 co nghiem kep: x1 = x2 = {x1_136}");
             else
-                Console.WriteLine($"Phương trình {a_136}x^2 + {b_136}x + {c_136} = 0 có 2 nghiệm phân biệt: {x1_136} và {x2_136}");
+                Console.WriteLine($"Phuong trinh {a_136}x^2 + {b_136}x + {c_136} = 0 co 2 nghiem phan biet: {x1_136:F2} va {x2_136:F2}");
+
         }
 
         Console.ReadKey();

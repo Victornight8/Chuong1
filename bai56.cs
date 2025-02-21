@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Bai45
 {
@@ -9,8 +9,11 @@ class Bai45
         do
         {
             Console.Write("\nNhap n: ");
-            n_136 = int.Parse(Console.ReadLine());
-        } while (n_136 < 0 && Console.WriteLine("\nLoi: n >= 0 !") != null);
+            if (!int.TryParse(Console.ReadLine(), out n_136) || n_136 < 0)
+            {
+                Console.WriteLine("\nLoi: n >= 0 !");
+            }
+        } while (n_136 < 0);
 
         P_136 = 1;
         themang_136 = n_136;
@@ -22,5 +25,6 @@ class Bai45
         }
 
         Console.WriteLine("\nTich la " + P_136);
+        Console.ReadKey();
     }
 }

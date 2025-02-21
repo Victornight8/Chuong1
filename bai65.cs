@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Bai65
+class Program
 {
     const int VoNghiem_136 = 0, VoSoNghiem_136 = -1;
 

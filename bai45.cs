@@ -1,26 +1,39 @@
 using System;
 
-class Bai45
+class Program
 {
     static void Main()
     {
-        int themang_136, n_136, P_136;
+        int so_136;
 
-        do
+        Console.Write("Nhap vao so = ");
+        string input = Console.ReadLine();
+
+        if (string.IsNullOrEmpty(input) || !int.TryParse(input, out so_136) || so_136 < 10 || so_136 > 99)
         {
-            Console.Write("\nNhap n: ");
-            n_136 = int.Parse(Console.ReadLine());
-        } while (n_136 < 0 && Console.WriteLine("\nLoi: n >= 0 !") != null);
-
-        P_136 = 1;
-        themang_136 = n_136;
-
-        while (themang_136 != 0)
-        {
-            P_136 *= themang_136 % 10;
-            themang_136 /= 10;
+            Console.WriteLine("\nKhong hop le !");
+            return;
         }
 
-        Console.WriteLine("\nTich la " + P_136);
+        int donvi_136 = so_136 % 10;
+        int chuc_136 = so_136 / 10;
+
+        string[] chuSo = { "", "Mot", "Hai", "Ba", "Bon", "Nam", "Sau", "Bay", "Tam", "Chin" };
+        
+        if (chuc_136 > 1)
+        {
+            Console.Write(chuSo[chuc_136] + " Muoi ");
+        }
+        else
+        {
+            Console.Write("Muoi ");
+        }
+
+        if (donvi_136 != 0)
+        {
+            Console.Write(chuSo[donvi_136]);
+        }
+
+        Console.ReadKey();
     }
 }

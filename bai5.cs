@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Program
+class bai5
 {
     static void Main()
     {
@@ -8,12 +8,12 @@ class Program
         float S_136 = 0;
         do
         {
-            Console.Write("\nNhập n: ");
+            Console.Write("\nNhap n: ");
             n_136 = int.Parse(Console.ReadLine());
 
             if (n_136 < 1)
             {
-                Console.WriteLine("\nN phải lớn hơn hoặc bằng 1. Xin nhập lại!");
+                Console.WriteLine("\nn>=1, nhap lai: ");
             }
 
         } while (n_136 < 1);
@@ -23,6 +23,6 @@ class Program
             S_136 += 1.0f / ((2 * i_136) + 1);
         }
 
-        Console.WriteLine("\nTổng là: " + S_136);
+        Console.WriteLine("\nTong: " + S_136);
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\bin\Debug\net8.0\baitap.exe
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\bin\Debug\net8.0\baitap.deps.json
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\bin\Debug\net8.0\baitap.runtimeconfig.json
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\bin\Debug\net8.0\baitap.dll
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\bin\Debug\net8.0\baitap.pdb
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.AssemblyInfoInputs.cache
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.AssemblyInfo.cs
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.csproj.CoreCompileInputs.cache
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.sourcelink.json
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.dll
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\refint\baitap.dll
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.pdb
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\baitap.genruntimeconfig.cache
+C:\Users\muctr\OneDrive\Chuong1\baitap\baitap\obj\Debug\net8.0\ref\baitap.dll

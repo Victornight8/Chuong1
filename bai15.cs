@@ -1,6 +1,6 @@
 ﻿using System;
 
-class bai15
+class Program
 {
     static void Main()
     {
@@ -22,10 +22,10 @@ class bai15
 
         } while (n_136 < 1);
 
-        while (i_136 < n_136) 
+        while (i_136 <= n_136) 
         {
             T_136 = T_136 + i_136;
-            S_136 = S_136 + 1 / T_136;
+            S_136 = S_136 + 1.0f / T_136;
             i_136++;
         }
 
